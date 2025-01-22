@@ -3,7 +3,7 @@ import {
   divideTwoNumbers,
   substractTwoNumbers,
   timesTwoNumbers
-} from '../../helpers/math-helpers.ts'
+} from '../helpers/math-helpers.ts'
 
 // ANCHOR -> FUNCIONES
 // Una fucnion es un conjunto de lineas de codigo que realizan una tarea especifica y pueden retornar algun resultado.

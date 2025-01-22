@@ -1,4 +1,4 @@
-import { printMultiplicationTable } from "../../helpers/print-multiplication-table";
+import { printMultiplicationTable } from "../helpers/print-multiplication-table";
 console.log("hola mundo");
 
 let base:number = 5;
