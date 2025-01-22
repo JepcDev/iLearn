@@ -16,7 +16,7 @@
 // carro.color//blanco
 // carro.llantas//4
 
-let person = {
+export let person = {
   name: 'Melisa',
   age: 30,
   isActive: true,
@@ -32,7 +32,7 @@ let person = {
 // console.log(person.toString);
 // person.toString();
 
-let car= {
+export let car= {
   brand: 'toyota',
   doors: 5,
   whels: 4,
@@ -41,7 +41,7 @@ let car= {
   gearBox: 'manual'
 }
 
-let smartTV = {
+export let smartTV = {
   brand: 'sony',
   color: 'black',
   sizeInches: 90,
@@ -49,7 +49,7 @@ let smartTV = {
   type: 'Led'
 }
 
-let youtubeVideo = {
+export let youtubeVideo = {
   title:'how make videos?',
   author: 'goodVideos',
   comments: ['Buen video', 'Me gustó mucho'],
