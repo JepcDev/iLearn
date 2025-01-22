@@ -8,25 +8,25 @@ interface Person {
   isActive:boolean
 }
 
-let fernando: Person = {
+export let fernando: Person = {
   name: 'Fernando',
   age: 36,
   isActive: false
 }
 
-let melisa: Person = {
+export let melisa: Person = {
   name: 'Melisa',
   age: 30,
   isActive: false
 }
 
-let juan: Person = {
+export let juan: Person = {
   name: 'Juan',
   age: 42,
   isActive: false
 }
 
-let people: Person[] = [fernando,melisa,juan];
+export let people: Person[] = [fernando,melisa,juan];
 
 for (let index = 0; index < people.length; index++) {
   let person = people[index];
