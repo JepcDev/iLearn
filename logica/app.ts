@@ -34,12 +34,12 @@ class Car {
 
   createdAt:number;
 
-  constructor() {
-    this.brand = 'No brand';
+  constructor(brand:string, type:string) {
+    this.brand = brand;
     this.doors = 0;
     this.fuelTank = 50;
     this.isRunning = false;
-    this.type='No type';
+    this.type=type;
 
     this.createdAt = 12345121;
   }
@@ -103,7 +103,7 @@ class Car {
   }
 }
 
-let myMazda = new Car();
+let myMazda = new Car('Mazda','Sedan');
 myMazda.fillTank(20);
 console.log(myMazda);
 // myMazda.turnoOn();
